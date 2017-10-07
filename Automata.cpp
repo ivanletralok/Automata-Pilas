@@ -164,7 +164,7 @@ class Grafo{
 
 
 int main(){
-	Grafo g(20);
+	Grafo g(30);
 	g.crearVertice("A",1);
 	g.crearVertice("B",2);
 	g.crearVertice("C",2);
@@ -185,8 +185,7 @@ int main(){
 	f.desapila = "A";
 	g.crearArco("A","E",f);
 	g.imprimirVertices();
-	g.imprimirArcos();
-	g.imprimirPila();
+
 
 
 }
